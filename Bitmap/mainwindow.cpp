@@ -48,4 +48,5 @@ void MainWindow::on_pushButton_clicked()
     painter.drawText(QRect(10, 200, 200, 20), Qt::AlignHCenter|Qt::AlignTop, barcode);
     painter.end();
     pix.save("test.png");
+    //This is to test Github
 }
